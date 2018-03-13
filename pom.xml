@@ -26,6 +26,7 @@
 				<configuration>
                     <copyToAppsDirectory>true</copyToAppsDirectory>
 				</configuration>
+				
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
@@ -174,7 +175,7 @@
             <id>mulesoft-release</id>
             <name>mulesoft release repository</name>
             <layout>default</layout>
-            <url>http://repository.mulesoft.org/releases/</url>
+            <url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
