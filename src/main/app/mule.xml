@@ -29,7 +29,7 @@ http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/
 
 from yaf.flights]]></db:parameterized-query>
         </db:select>
-        <object-to-string-transformer doc:name="Object to String"/>
+        <json:object-to-json-transformer doc:name="Object to JSON"/>
         <jms:outbound-endpoint queue="flights" connector-ref="Active_MQ" doc:name="JMS"/>
     </flow>
     <flow name="retrieveFlights">
